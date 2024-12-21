@@ -1,1 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Funcionalidade</h1>
+<p>Interaja com os dados abaixo:</p>
+<h2>Casos Confirmados</h2>
+<img src="{{ url_for('static', filename='grafico_casos.png') }}" alt="Gráfico de Casos Confirmados de COVID-19">
+<h2>Mortes</h2>
+<img src="{{ url_for('static', filename='grafico_mortes.png') }}" alt="Gráfico de Mortes por COVID-19">
+<h2>Recuperações</h2>
+<img src="{{ url_for('static', filename='grafico_recuperacoes.png') }}" alt="Gráfico de Recuperações de COVID-19">
+{% endblock %}
 
