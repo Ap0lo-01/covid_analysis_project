@@ -1,1 +1,20 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ titulo }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/funcionalidade">Funcionalidade</a>
+        <a href="/apresentacao">Apresentação</a>
+    </div>
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+    <footer>
+        <p>&copy; 2023 Análise de Dados COVID-19</p>
+    </footer>
+</body>
+</html>
