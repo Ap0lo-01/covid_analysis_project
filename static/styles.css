@@ -1,1 +1,117 @@
+/* Estilo básico para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
+/* Estilo da barra de navegação */
+.navbar {
+    background-color: #000;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #ffc107;  /* Amarelo mostarda */
+    color: #000;
+}
+
+/* Estilo para o conteúdo principal */
+.content {
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #000;
+}
+
+/* Estilo para os parágrafos */
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para as tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #ffc107;  /* Amarelo mostarda */
+    color: #000;
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo para as imagens de gráficos */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilo específico para a página de funcionalidades */
+.funcionalidade {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Botões */
+button {
+    background-color: #ffc107;  /* Amarelo mostarda */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0a800;  /* Derivação do amarelo mostarda */
+    color: #fff;
+}
