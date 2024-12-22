@@ -6,10 +6,6 @@ Este projeto visa integrar conhecimentos de manipulação de dados, visualizaç�
 
 Utilizamos ferramentas como Pandas para manipulação de dados, Matplotlib e Seaborn para geração de gráficos, e Flask para desenvolvimento de um site interativo.
 
-## Estrutura do Projeto
-
-covid_analysis_project/ ├── app.py├── static/ │ └── styles.css├── templates/ │ ├── base.html│ ├── home.html│ ├── funcionalidade.html│ ├── apresentacao.html├── data/ │ └── country_wise_latest.csv ├── requirements.txt└── README.md
-
 ## Funcionalidades
 
 1. **Manipulação de Dados com Pandas**
