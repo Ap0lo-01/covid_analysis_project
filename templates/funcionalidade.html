@@ -1,12 +1,22 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Funcionalidade</h1>
-<p>Interaja com os dados abaixo:</p>
-<h2>Casos Confirmados</h2>
-<img src="{{ url_for('static', filename='grafico_casos.png') }}" alt="Gráfico de Casos Confirmados de COVID-19">
-<h2>Mortes</h2>
-<img src="{{ url_for('static', filename='grafico_mortes.png') }}" alt="Gráfico de Mortes por COVID-19">
-<h2>Recuperações</h2>
-<img src="{{ url_for('static', filename='grafico_recuperacoes.png') }}" alt="Gráfico de Recuperações de COVID-19">
+<div class="funcionalidade-container">
+    <h1>Análise de Dados COVID-19</h1>
+    <p>Explore os dados abaixo e visualize os gráficos interativos para entender melhor a evolução da pandemia.</p>
+    
+    <div class="grafico-section">
+        <h2>Casos Confirmados</h2>
+        <img src="{{ url_for('static', filename='grafico_casos.png') }}" alt="Gráfico de Casos Confirmados de COVID-19">
+    </div>
+    
+    <div class="grafico-section">
+        <h2>Mortes</h2>
+        <img src="{{ url_for('static', filename='grafico_mortes.png') }}" alt="Gráfico de Mortes por COVID-19">
+    </div>
+    
+    <div class="grafico-section">
+        <h2>Recuperações</h2>
+        <img src="{{ url_for('static', filename='grafico_recuperacoes.png') }}" alt="Gráfico de Recuperações de COVID-19">
+    </div>
+</div>
 {% endblock %}
-
